@@ -1,0 +1,20 @@
+{
+  "name": "final_lenguaje",
+  "version": "1.0.0",
+  "description": "Final Lenguaje de programacion 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andres",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.0"
+  }
+}
