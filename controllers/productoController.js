@@ -1,6 +1,6 @@
 const Producto = require('../models/Producto');
 
-//Crear un producto
+// Crear un producto
 exports.crearProducto = async (req, res) => {
     try {
         const nuevoProducto = new Producto(req.body);
@@ -11,12 +11,12 @@ exports.crearProducto = async (req, res) => {
     }
 };
 
-//Obtener todos los productos
+// Obtener todos los productos
 exports.obtenerProductos = async (req, res) => {
     try {
-        const productos = await producto.find();
+        const productos = await Producto.find();
         res.status(200).json(productos);
-    }catch (error) {
-        res.status(500).json({ message: error.message});
+    } catch (error) {
+        res.status(500).json({ message: error.message });
     }
 };

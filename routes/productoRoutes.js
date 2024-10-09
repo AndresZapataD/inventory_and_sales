@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const inventarioController = require('../controllers/productoController');
+const productoController = require('../controllers/productoController');
 
-//Las rutas
+// Rutas para productos
 router.post('/productos', productoController.crearProducto);
-router.get('/productos', productoController.obtenerProducto);
+router.get('/productos', productoController.obtenerProductos);
 
-MediaSourceHandle.exports = router;
+module.exports = router;

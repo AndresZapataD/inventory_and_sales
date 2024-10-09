@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const inventarioController = require('../controllers/inventarioController');
+const inventarioController = require('../controllers/inventarioController'); // Asegúrate de importar el controlador
 
-//Las rutas
-router.post('/inventarios', inventarioController.crearInventario);
-router.get('/inventarios', inventarioController.obtenerInventario);
+// Rutas para inventarios
+router.post('/inventarios', inventarioController.crearInventario);  // Crear inventario
+router.get('/inventarios', inventarioController.obtenerInventarios); // Obtener inventarios
 
-MediaSourceHandle.exports = router;
+module.exports = router;

@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const inventarioController = require('../controllers/usuarioController');
+const usuarioController = require('../controllers/usuarioController'); // Asegúrate de tener esta línea
 
-//Las rutas
+// Rutas para usuarios
 router.post('/usuarios', usuarioController.crearUsuario);
-router.get('/usuarios', usuarioController.obtenerUsuario);
+router.get('/usuarios', usuarioController.obtenerUsuarios);
 
-MediaSourceHandle.exports = router;
+module.exports = router;
